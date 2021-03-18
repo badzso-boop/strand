@@ -1,0 +1,100 @@
+body
+{
+    background-image: url(kep2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container
+{
+    border: 2px solid;
+    width: 75%;
+    margin: 5% auto;
+    background-color: rgba(56, 56, 56, 0.7);
+}
+
+.container h1
+{
+    text-align: center;
+    font-size: 48px;
+}
+
+.container h2 
+{
+    text-align: left;
+    margin: 10px;
+}
+
+.container h3
+{
+    font-size: 25px;
+}
+
+.container h3 ul li
+{
+    margin: 15px;
+}
+
+.container h4
+{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+
+.input1
+{
+    margin: 35px;
+}
+
+.input1 span 
+{
+    margin: 5px;
+    font-size: 25px;
+    color: yellowgreen;
+}
+
+.input1 input
+{
+    border: none;
+    height: 25px;
+    font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+}
+
+.input2
+{
+    margin: 35px;
+}
+
+.input2 span
+{
+    font-size: 20px;
+}
+
+.input2 input
+{
+    margin: 10px;
+}
+
+.button
+{
+    background-color: pink;
+    height: 75px;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    font-size: 32px;
+    margin: 0% auto;
+    text-align: center;
+}
+
+.szoveg
+{
+    font-size: 28px;
+}

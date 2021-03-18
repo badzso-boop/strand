@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Feladat</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Üdvözöljük a Balaton strandon</h1>
+        <h2>Az alábbi jegytípusok közül választhat:</h2>
+        <h3>
+            <ul>
+                <li>Felnött jegy: 1200Ft</li>
+                <li>Diák jegy: 1000Ft</li>
+                <li>Nyugdíjas jegy: 800Ft</li>
+            </ul>
+        </h3>
+        <h4>Érintésmentes fizetés esetén 5% kedvezményt adunk!</h4>
+        <h2>Jegytípus kiválasztása:</h2>
+        <div class="input1">
+            <span>Felnött</span><input type="number" id = "felnott"> 
+            <span>Diák</span><input type="number" id = "diak"> 
+            <span>Nyugdíjas</span><input type="number" id = "nyugdijas"> 
+        </div>
+        <h2>Fizetési mód kiválasztása:</h2>
+        <div class="input2">
+            <span>Kártya</span><input type="radio" name = "fizmod" id = "kartya">
+            <span>Készpénz </span><input type="radio" name = "fizmod" id = "kp">
+            <span>Utalvány</span><input type="radio" name = "fizmod" id = "utalvany"> 
+        </div>
+        <button class = "button" onclick = "szamol()">Számol</button>
+        <p class = "szoveg">Fizetendő összeg: <span id = "osszeg"></span></p>
+    </div>
+</body>
+</html>
